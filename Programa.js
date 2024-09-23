@@ -26,7 +26,7 @@ let e3=parseFloat(prompt("Ingresar nota de entregable 3: "));
 console.log("Nota del entregable 3 es: "+e3);
 let e4=parseFloat(prompt("Ingresar nota de entregable 4: "));
 console.log("Nota del entregable 4 es: "+e4);
-let sumae=p1+p2+p3+p4, promentreg=sumae/4;
+let sumae=e1+e2+e3+e4, promentreg=sumae/4;
 console.log("La suma de los entregables es "+sumae+" y su promedio es "+promentreg);
 if (promentreg>=60){
     console.log("Aprobaste los entregables")
